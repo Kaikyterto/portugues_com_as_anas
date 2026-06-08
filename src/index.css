@@ -1,0 +1,8 @@
+@import "tailwindcss";
+
+@theme {
+  --color-brand-purple: #7b42f6; /* Roxo principal */
+  --color-brand-cyan: #22d3ee; /* Ciano dos botões/detalhes */
+  --color-brand-cream: #fdfae7; /* Fundo creme da seção central */
+  --color-brand-dark: #1a1a1a; /* Preto para textos */
+}
