@@ -29,14 +29,13 @@ export default function Testimonials() {
       id="testimonials"
       className="py-20 bg-brand-purple text-white relative overflow-hidden"
     >
-      {/* Padrão de bolinhas sutil no fundo */}
       <div className="absolute inset-0 opacity-5 pointer-events-none bg-[radial-gradient(#ffffff_1px,transparent_1px)] [background-size:20px_20px]" />
 
       <div className="relative mx-auto w-full max-w-4xl px-6">
         {/* Header */}
         <div className="text-center flex flex-col items-center">
           <span className="inline-block rounded-full bg-brand-cyan px-4 py-1 text-xs font-black uppercase tracking-widest text-brand-purple border-2 border-black shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]">
-            Quem já passou aprova
+            Quem já passou, aprova
           </span>
 
           <h2 className="mt-4 text-3xl md:text-4xl font-black uppercase tracking-tight">

@@ -63,31 +63,6 @@ export default function Hero() {
             <div className="h-12 w-px bg-white/20" />
           </div>
 
-          <p className="mt-6 text-lg font-medium text-purple-100 max-w-md">
-            Garanta sua vaga no{" "}
-            <strong className="text-white font-bold">Módulo III</strong>
-          </p>
-
-          <div className="mt-6 inline-flex items-center gap-4 rounded-2xl border-2 border-brand-cyan bg-white/10 backdrop-blur-sm px-6 py-4 shadow-[0_0_20px_rgba(0,229,255,0.2)]">
-            <div>
-              <p className="text-xs uppercase font-black tracking-widest text-brand-cyan">
-                Investimento
-              </p>
-              <p className="text-3xl font-black text-white">R$ 85,00</p>
-            </div>
-
-            <div className="h-12 w-px bg-white/20" />
-
-            <div>
-              <p className="text-xs uppercase font-black tracking-widest text-brand-cyan">
-                Vagas
-              </p>
-              <p className="font-bold text-white">Limitadas</p>
-            </div>
-
-            <div className="h-12 w-px bg-white/20" />
-          </div>
-
           <div className="mt-8 flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
             <a
               href={registerLink}
