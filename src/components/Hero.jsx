@@ -1,10 +1,10 @@
 import { getWhatsAppUrl, siteContent } from "../content/site";
-// Substitua o import abaixo pelo caminho correto da imagem do banner/foto das Anas
+
 import bannerImage from "../assets/logo-sem-fundo.png";
 
 export default function Hero() {
   const registerLink = getWhatsAppUrl(
-    "Olá! Quero me inscrever no Módulo II da Mentoria de Português."
+    "Olá! Quero me inscrever na Mentoria de Português."
   );
 
   return (
@@ -24,7 +24,6 @@ export default function Hero() {
       }}
     >
       <div className="relative z-10 mx-auto flex w-full max-w-6xl flex-col-reverse items-center gap-12 px-6 lg:grid lg:grid-cols-12">
-        {/* TEXTO / CONTEÚDO ESQUERDA */}
         <div className="lg:col-span-5 text-center lg:text-left flex flex-col items-center lg:items-start">
           <span className="inline-block rounded-full bg-brand-cyan px-4 py-1 text-xs font-black uppercase tracking-widest text-brand-purple border-2 border-black shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]">
             Preparação para Concursos
@@ -39,13 +38,37 @@ export default function Hero() {
 
           <p className="mt-6 text-lg font-medium text-purple-100 max-w-md">
             Garanta sua vaga no{" "}
-            <strong className="text-white font-bold">CFO e Prefeitura</strong>{" "}
-            com a nossa revisão estratégica do{" "}
-            <span className="text-brand-cyan font-bold">Módulo II</span>.
-            Aprendizado direto ao ponto.
+            <strong className="text-white font-bold">
+              Português do Zero ao Topo, tudo o que você precisa para ir do
+              básico ao avançado e alcançar a tão sonhada aprovação
+            </strong>
+          </p>
+          <div className="mt-6 inline-flex items-center gap-4 rounded-2xl border-2 border-brand-cyan bg-white/10 backdrop-blur-sm px-6 py-4 shadow-[0_0_20px_rgba(0,229,255,0.2)]">
+            <div>
+              <p className="text-xs uppercase font-black tracking-widest text-brand-cyan">
+                Investimento
+              </p>
+              <p className="text-3xl font-black text-white">R$ 195,00</p>
+            </div>
+
+            <div className="h-12 w-px bg-white/20" />
+
+            <div>
+              <p className="text-xs uppercase font-black tracking-widest text-brand-cyan">
+                Vagas
+              </p>
+              <p className="font-bold text-white">Limitadas</p>
+            </div>
+
+            <div className="h-12 w-px bg-white/20" />
+          </div>
+
+          <p className="mt-6 text-lg font-medium text-purple-100 max-w-md">
+            Garanta sua vaga no{" "}
+            <strong className="text-white font-bold">Módulo III</strong>
           </p>
 
-          <div className="mt-8 inline-flex items-center gap-4 rounded-2xl border-2 border-brand-cyan bg-white/10 backdrop-blur-sm px-6 py-4 shadow-[0_0_20px_rgba(0,229,255,0.2)]">
+          <div className="mt-6 inline-flex items-center gap-4 rounded-2xl border-2 border-brand-cyan bg-white/10 backdrop-blur-sm px-6 py-4 shadow-[0_0_20px_rgba(0,229,255,0.2)]">
             <div>
               <p className="text-xs uppercase font-black tracking-widest text-brand-cyan">
                 Investimento
@@ -61,6 +84,8 @@ export default function Hero() {
               </p>
               <p className="font-bold text-white">Limitadas</p>
             </div>
+
+            <div className="h-12 w-px bg-white/20" />
           </div>
 
           <div className="mt-8 flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
@@ -80,10 +105,8 @@ export default function Hero() {
           </div>
         </div>
 
-        {/* CONTAINER DA JANELA RETRÔ À DIREITA */}
         <div className="lg:col-span-7 flex justify-center w-full">
           <div className="bg-brand-cream border-4 border-black rounded-xl shadow-[12px_12px_0px_0px_rgba(0,0,0,1)] w-full max-w-xl overflow-hidden">
-            {/* Barra superior da janela fake */}
             <div className="bg-brand-cyan border-b-4 border-black px-4 py-3 flex items-center justify-between">
               <div className="flex gap-2">
                 <div className="w-3 h-3 rounded-full bg-brand-purple border-2 border-black" />
@@ -95,7 +118,6 @@ export default function Hero() {
               </span>
             </div>
 
-            {/* Conteúdo interno da janela */}
             <div className="flex items-center justify-center relative overflow-hidden h-full bg-white/10 backdrop-blur-sm">
               <img
                 src={bannerImage}

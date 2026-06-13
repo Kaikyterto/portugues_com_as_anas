@@ -12,7 +12,6 @@ export default function Footer() {
       className="bg-[#1f1137] text-purple-100 font-sans border-t-4 border-black"
     >
       <div className="mx-auto grid w-full max-w-6xl gap-10 px-6 py-12 md:grid-cols-2 md:items-center">
-        {/* LOGO + DESCRIÇÃO */}
         <div className="flex flex-col items-start">
           <img
             src={logo}
@@ -25,22 +24,10 @@ export default function Footer() {
           </h3>
 
           <p className="mt-2 text-base text-purple-200/90 max-w-sm font-medium leading-relaxed">
-            Preparação estratégica e de alto rendimento em Língua Portuguesa
-            para os concursos do CFO e Prefeituras.
+            Preparação estratégica e de alto rendimento em Língua Portuguesa.
           </p>
-
-          {/* Tags de Concurso no rodapé */}
-          <div className="mt-4 flex flex-wrap gap-2">
-            <span className="bg-brand-purple border-2 border-black px-2.5 py-0.5 text-xs font-bold uppercase rounded text-white shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]">
-              CFO
-            </span>
-            <span className="bg-brand-cyan border-2 border-black px-2.5 py-0.5 text-xs font-black uppercase rounded text-brand-purple shadow-[2px_2px_0px_0px_rgba(0,0,0,1)]">
-              Prefeituras
-            </span>
-          </div>
         </div>
 
-        {/* CONTATO CANAL DIRETO SIMPLIFICADO */}
         <div className="flex flex-col items-start md:items-end md:text-right w-full">
           <h4 className="font-black uppercase tracking-wider text-brand-cyan text-sm">
             Dúvidas e Inscrições
