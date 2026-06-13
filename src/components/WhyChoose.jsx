@@ -23,11 +23,6 @@ export default function Services() {
       desc: "Saia do básico e domine o Português com uma preparação estruturada para alcançar sua aprovação.",
     },
     {
-      title: "Revisão Módulo III",
-      icon: FileCheck,
-      desc: "Aprofundamento prático e fixação dos temas mais complexos.",
-    },
-    {
       title: "Resolução de Questões",
       icon: HelpCircle,
       desc: "Análise detalhada de bancas para evitar pegadinhas.",
