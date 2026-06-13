@@ -1,7 +1,7 @@
 export const siteContent = {
   brandName: "Português com as Anas",
   subtitle: "Preparatório para Concursos Públicos",
-  email: "portuguescomasanas@gmail.com",
+  email: "gabynascimento47@gmail.com",
   phoneDisplay: "(96) 99163-2585",
   phoneDigits: "5596991632585",
   defaultMessage:
